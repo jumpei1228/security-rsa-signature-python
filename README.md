@@ -1,5 +1,7 @@
 # デジタル署名をPythonで実装する｜RSAで「改ざん」を見抜くしくみ
 
+[![run](https://github.com/jumpei1228/security-rsa-signature-python/actions/workflows/run.yml/badge.svg)](https://github.com/jumpei1228/security-rsa-signature-python/actions/workflows/run.yml)
+
 公開鍵暗号による電子署名を、Pythonのcryptographyライブラリで手を動かして実装。秘密鍵で署名し公開鍵で検証する流れ、なぜ1文字の改ざんでも検知できるのかを、動くコードで確かめます。
 
 > 📖 このコードの詳しい解説（理論・図解つき）は元記事をどうぞ:
